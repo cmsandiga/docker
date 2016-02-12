@@ -117,9 +117,6 @@ RUN /usr/sbin/a2ensite zabbix
 ADD zabbix_agentd.conf /etc/zabbix/zabbix_agentd.conf
 RUN chmod 0444 /etc/zabbix/zabbix_agentd.conf
 
-#ADD zabbix_agentd.conf.d /etc/zabbix/zabbix_agentd.conf.d
-#RUN chmod 0444 /etc/zabbix/zabbix_agentd.conf.d
-
 ADD zabbix.conf.php /etc/zabbix/zabbix.conf.php
 RUN chmod 0444 /etc/zabbix/zabbix.conf.php
 
