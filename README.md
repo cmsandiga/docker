@@ -1,2 +1,2 @@
 # docker
-Docker
+Docker Zookeeper and kafka configuration
